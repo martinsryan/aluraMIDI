@@ -1,8 +1,6 @@
 alert('essa pagna contem viros. Para continar faça seus dados bancários')
 function tocaSomPom(){document. querySelector('#som_tecla_').play();}
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
-function tocaSomPom(){document. querySelector('#som_tecla_pom').play();}
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
 function tocaSomClap(){document. querySelector('#som_tecla_clap').play();}
 document.querySelector('.tecla_clap').onclick = tocaSomClap;
@@ -17,7 +15,7 @@ function tocaSomSplash(){document. querySelector('#som_tecla_splash').play();}
 document.querySelector('.tecla_splash').onclick = tocaSomSplash;
 
 function tocaSomToim(){document. querySelector('#som_tecla_toim').play();}
-document.querySelector('.tecla_tiom').onclick = tocaSomToim;
+document.querySelector('.tecla_toim').onclick = tocaSomToim;
 
 function tocaSomPsh(){document. querySelector('#som_tecla_psh').play();}
 document.querySelector('.tecla_psh').onclick = tocaSomPsh;
@@ -35,20 +33,9 @@ const Listadeteclas = document.querySelectorAll('.tecla');
 
 
 
-
- 
-
-
-document.querySelector('#som_tecla_pom').play
-document.querySelector('.tecla_clap')
-document.querySelector('.tecla_tim')
-document.querySelector('.tecla_puff')
-document.querySelector('.tecla_splash')
-document.querySelector('.tecla_toim')
-document.querySelector('.tecla_psh')
-document.querySelector('.tecla_tic')
-document.querySelector('.tecla_tom')
-
-
-
+Listadeteclas['0'].onclick = tocaSomPom wile (nome){
     
+}
+    
+
+
